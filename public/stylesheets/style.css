@@ -1,0 +1,65 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#home-link {
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.project-row {
+  margin-bottom: 30px;
+}
+
+.half-size-img {
+  width: 50%;
+  height: 50%;
+}
+
+.card.pull-right {
+  width: 50%
+}
+
+h4.card-title {
+  margin-bottom: 30px;
+}
+
+p.card-text {
+  margin-bottom: 30px;
+}
+
+.fa-github, .fa-eye {
+  font-size: 24px !important;
+}
+
+.btn-text {
+  position: relative;
+  top: -2px;
+  margin-left: 4px;
+}
+
+.btn-right-margin {
+  margin-right: 10px;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.project-links {
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

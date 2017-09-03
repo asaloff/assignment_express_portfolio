@@ -1,0 +1,18 @@
+<h1>Aaron's Express Practice Portfolio</h1>
+<div class="container">
+  {{#each projects as |project|}}
+    <div class='row project-row'>
+      <img class="img-thumbnail pull-left half-size-img" src="{{project.imageUrl}}" alt="{{project.name}}">
+      <div class="card pull-right">
+        <div class="card-block">
+          <h4 class="card-title">{{project.name}}</h4>
+          <p class="card-text">{{project.desc}}</p>
+          <a href="/projects/{{project.name}}" class="btn btn-secondary pull-left btn-right-margin">
+            <i class="fa fa-eye" aria-hidden="true"></i>
+            <span class='btn-text'>More Info</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>

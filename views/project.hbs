@@ -1,0 +1,27 @@
+<a href="/" class="pull-right" id="home-link">Home</a>
+<h1>{{project.name}}</h1>
+<div class="container">
+  <div class="row">
+    <img class="img-thumbnail pull-left half-size-img offset-sm-3" src="{{project.imageUrl}}" alt="{{project.name}}">
+  </div>
+  <div class="description"></div>
+  <p class="text-center">{{project.desc}}</p>
+  <h5 class="text-center">Technologies Used:</h4>
+  <ul class="text-center">
+    {{#each project.technologies as |tech|}}
+      <li>{{tech}}</li>
+    {{/each}}
+  </ul>
+  <div class='row'>
+    <div class="project-links">
+      <a href="{{project.githubLink}}" class="btn btn-secondary pull-left btn-right-margin">
+        <i class="fa fa-github" aria-hidden="true"></i>
+        <span class='btn-text'>Github</span>
+      </a>
+      <a href="{{project.herokuLink}}" class="btn btn-secondary pull-left">
+        <i class="fa fa-eye" aria-hidden="true"></i>
+        <span class='btn-text'>Application</span>
+      </a>
+    </div>
+  </div>
+</div>
